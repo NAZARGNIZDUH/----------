@@ -180,7 +180,33 @@ nav {
     }
   }
 }
-.infom {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+footer {
+  background: lightgrey;
+  h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: black;
+  }
+  .main-footer-text {
+    display: grid;
+    grid-template-columns: 500px auto;
+    column-gap: 30px;
+    padding-left: 130px;
+  }
+  .main-inform {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .infom {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 20px;
+    .medius {
+      color: rgb(90, 90, 90);
+      font-weight: 90px;
+      font-size: 19px;
+      float: right;
+    }
+  }
 }

@@ -209,10 +209,47 @@ nav .menu li a:hover {
   bottom: 5px;
 }
 
-.infom {
+footer {
+  background: lightgrey;
+}
+
+footer h2 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+footer .main-footer-text {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (auto)[2];
-      grid-template-columns: repeat(2, auto);
+  -ms-grid-columns: 500px auto;
+      grid-template-columns: 500px auto;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  padding-left: 130px;
+}
+
+footer .main-inform {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+footer .infom {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+footer .infom .medius {
+  color: #5a5a5a;
+  font-weight: 90px;
+  font-size: 19px;
+  float: right;
 }
 /*# sourceMappingURL=style.css.map */
